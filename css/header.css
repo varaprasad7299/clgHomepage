@@ -1,0 +1,30 @@
+.header{
+    z-index: 3px;
+    width: 100%;
+    display: flex;
+    position:sticky;
+}
+.logo{
+    width: 15%;
+    height: 2in;
+    position: absolute;
+    
+}
+.logo img{
+    object-fit: fill;
+}
+.navbar{
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  
+}
+.navbar p{
+    color: rgb(239, 5, 28);
+    text-shadow: 100px 100px 100px 100px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 500;
+}
